@@ -1,0 +1,50 @@
+
+
+
+.start{
+    background-color: lightgreen;
+padding: 50px;
+
+
+
+}.start1{
+
+
+position: relative;
+left:500px
+
+
+
+}
+
+
+.start2{
+
+
+    position: relative;
+    left:590px
+    
+    
+    
+    }
+
+    .home{
+        display:flex;
+        background-color:aqua;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+
+    .aboutme{
+
+        background-color: aqua;
+    }
+    .skills{
+
+        font-size: 30px;
+        background-color: aqua;
+    }
+.skill{
+    background-color: aqua;
+}
