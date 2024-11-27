@@ -11,6 +11,9 @@ import Pract  from './pract'
 import Resume from './resume'
 import Home1 from './resumehome'
 import Pro from './propsmain'
+import Boot from './bootstrapmain'
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,7 +27,9 @@ root.render(
     {/* <Pract/> */}
     {/* <Resume/> */}
     {/* <Home1/> */}
-    <Pro/>
+    {/* <Pro/> */}
+    <Boot/>
+    
 
 
 
