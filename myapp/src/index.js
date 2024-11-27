@@ -12,6 +12,7 @@ import Resume from './resume'
 import Home1 from './resumehome'
 import Pro from './propsmain'
 import Boot from './bootstrapmain'
+import Accord from './accordianmain'
 
 
 
@@ -28,8 +29,8 @@ root.render(
     {/* <Resume/> */}
     {/* <Home1/> */}
     {/* <Pro/> */}
-    <Boot/>
-    
+    {/* <Boot/> */}
+    <Accord/>
 
 
 
