@@ -13,6 +13,14 @@ import Home1 from './resumehome'
 import Pro from './propsmain'
 import Boot from './bootstrapmain'
 import Accord from './accordianmain'
+import Cond from './conditional/conditionalmain';
+import Parent from './conditioncomponent/parent';
+import State from './state/state'
+import Button from './state/statebutton'
+import Form  from './formevents/formevents'
+import Todo from './todo/todoforms'
+import Portfolio from './formevents/portfolio/portfolio';
+import Life from './lifecycle/lifecycle'
 
 
 
@@ -20,17 +28,27 @@ import Accord from './accordianmain'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    {/* {<Hello />}
-    <Table/> */}
-    {/* <Home/> */}
-    {/* <Practise/> */}
-    {/* <Pract/> */}
-    {/* <Resume/> */}
-    {/* <Home1/> */}
-    {/* <Pro/> */}
+     {/* <App />
+     <Hello />
+    <Table/> 
+    <Home/>
+    <Practise/>
+    <Pract/>
+    <Resume/>
+    <Home1/>
+     <Pro/> */}
     {/* <Boot/> */}
-    <Accord/>
+
+  {/* <Accord/>  */}
+
+    {/* <Cond/> */}
+    {/* <Parent login="Admin" /> */}
+    {/* <State/> */}
+    {/* <Button/> */}
+    {/* <Form/> */}
+    {/* <Todo/> */}
+    {/* <Portfolio/> */}
+    <Life/>
 
 
 

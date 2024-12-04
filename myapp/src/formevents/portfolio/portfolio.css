@@ -1,0 +1,54 @@
+.port{
+
+display:flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 20px;
+background-color: red;
+font-size: 40px;
+
+
+
+
+}
+.summary{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color:yellow;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+.skills{
+
+
+    background-color:yellow;
+font-size:20px;
+border-radius: 20px;
+/* padding: 20px; */
+padding-left: 20px;
+
+
+
+}
+.education{
+
+    background-color:yellow;
+    font-size: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    
+    
+
+
+}
+.projects{
+    background-color:yellow;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px;
+
+}
