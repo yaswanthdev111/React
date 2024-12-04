@@ -47,8 +47,8 @@ root.render(
     {/* <Button/> */}
     {/* <Form/> */}
     {/* <Todo/> */}
-    {/* <Portfolio/> */}
-    <Life/>
+    <Portfolio/>
+    {/* <Life/> */}
 
 
 
