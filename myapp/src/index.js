@@ -21,6 +21,8 @@ import Form  from './formevents/formevents'
 import Todo from './todo/todoforms'
 import Portfolio from './formevents/portfolio/portfolio';
 import Life from './lifecycle/lifecycle'
+import Update from './update/update.js';
+import Functional from './functionalcomponents/function.js';
 
 
 
@@ -47,9 +49,11 @@ root.render(
     {/* <Button/> */}
     {/* <Form/> */}
     {/* <Todo/> */}
-    <Portfolio/>
+    {/* <Portfolio/> */}
     {/* <Life/> */}
-
+    <Update color="red"/>  
+    {/* update color red for getderviedstatefromprops once check in update.js file */}
+{/* <Functional/> */}
 
 
   </React.StrictMode>
