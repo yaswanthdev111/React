@@ -45,13 +45,13 @@ root.render(
 
     {/* <Cond/> */}
     {/* <Parent login="Admin" /> */}
-    {/* <State/> */}
+    <State/>
     {/* <Button/> */}
     {/* <Form/> */}
     {/* <Todo/> */}
     {/* <Portfolio/> */}
     {/* <Life/> */}
-    <Update color="red"/>  
+    {/* <Update color="red"/>   */}
     {/* update color red for getderviedstatefromprops once check in update.js file */}
 {/* <Functional/> */}
 
