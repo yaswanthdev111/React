@@ -45,7 +45,7 @@ root.render(
 
     {/* <Cond/> */}
     {/* <Parent login="Admin" /> */}
-    <State/>
+    {/* <State/> */}
     {/* <Button/> */}
     {/* <Form/> */}
     {/* <Todo/> */}
@@ -53,7 +53,7 @@ root.render(
     {/* <Life/> */}
     {/* <Update color="red"/>   */}
     {/* update color red for getderviedstatefromprops once check in update.js file */}
-{/* <Functional/> */}
+<Functional/>
 
 
   </React.StrictMode>
