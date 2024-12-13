@@ -22,23 +22,28 @@ import Todo from './todo/todoforms'
 import Portfolio from './formevents/portfolio/portfolio';
 import Life from './lifecycle/lifecycle'
 import Update from './update/update.js';
-import Functional from './functionalcomponents/function.js';
-
+import Functional from './functionalcomponents/functionsetstate.js';
+import Props from './functionalprops/functionalprops.js'
+import Forms from './functionalforms/forms.js';
+import Pure from './purecomponent/pure.js'
+import Formss from './functionalforms/multipleforms.js'
+import Login from './login/login.jsx'
+import Useeffect from './useeffect/useeffect.js';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     {/* <App />
-     <Hello />
+      <App />
+     {/* {<Hello />}
     <Table/> 
     <Home/>
     <Practise/>
     <Pract/>
     <Resume/>
     <Home1/>
-     <Pro/> */}
+     <Pro/> */ }
     {/* <Boot/> */}
 
   {/* <Accord/>  */}
@@ -53,7 +58,13 @@ root.render(
     {/* <Life/> */}
     {/* <Update color="red"/>   */}
     {/* update color red for getderviedstatefromprops once check in update.js file */}
-<Functional/>
+{/* <Functional/> */}
+{/* <Props/> */}
+{/* <Forms/> */}
+{/* <Pure/> */}
+{/* <Formss/> */}
+{/* <Login/> */}
+{/* <Useeffect/> */}
 
 
   </React.StrictMode>
