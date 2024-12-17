@@ -24,7 +24,7 @@ const products = [
     productName: "Iwatch",
     productPrice: 25000,
     productImage: Iwatch,
-    productAvailability: true,
+    productAvailability: false,
   }
 ];
 

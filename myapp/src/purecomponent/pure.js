@@ -17,6 +17,7 @@ function Pure() {
     <div>
       
     <h1>{random}</h1>
+    
       <button onClick={handleChange}>INCREMENT</button>
       <button onClick={handleRandom}>Random</button>
 

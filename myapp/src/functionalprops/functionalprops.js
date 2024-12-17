@@ -24,25 +24,12 @@ function Props() {
     <div>
       <h1>{text}</h1>
       <Child
-        onClick={() => {
-          Change("inc");
-        }}
-        name="INCREMENT"
-      />
+        onClick={() => {Change("inc")}} name="INCREMENT"/>
 
       <Child
-        onClick={() => {
-          Change("dec");
-        }}
-        name="DECREMENT"
-      />
+        onClick={() => { Change("dec") }} name="DECREMENT"  />
 
-      <Child
-        onClick={() => {
-          Change("");
-        }}
-        name="RESET"
-      />
+      <Child onClick={() => {  Change("") }}name="RESET"/>
     </div>
   );
 }

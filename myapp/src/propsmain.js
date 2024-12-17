@@ -13,13 +13,13 @@ import React from "react"
 
 // this is 1st method with props
 
-// import Props from "./props.js"
-// function Pro(){
-//     return(
+import Props from "./props.js"
+function Pro(){
+    return(
  
-// <Props  name="G.Yaswanth" institute="10K CODERS"/>
-//     )
-// }
+<Props  name="G.Yaswanth" institute="10K CODERS"/>
+    )
+}
 // export default Pro
 
 
@@ -27,22 +27,22 @@ import React from "react"
 
 //this is 2nd method calling props with CHILDREN.
 
-import Children from "./propschildren.js"
+// import Children from "./propschildren.js"
 
-function Pro(){
-
-
-    return(
-
-        <div>
-            <Children>
-<h1>YASWANTH</h1>
+// function Pro(){
 
 
-                </Children>
+//     return(
+
+//         <div>
+//             <Children>
+// <h1>YASWANTH</h1>
 
 
-        </div>
-    )
-}
+//                 </Children>
+
+
+//         </div>
+//     )
+// /
 export default Pro

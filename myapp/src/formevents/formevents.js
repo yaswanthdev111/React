@@ -39,7 +39,7 @@ render(){
 
 <input type="text" name="fname" onChange={this.handleChange}/>
 <input type="text" name="sname" onChange={this.handleChange}/>
-<input type="submit"/>
+<input type="submit" />
 
 </form>
 

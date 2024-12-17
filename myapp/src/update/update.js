@@ -21,15 +21,15 @@ class Update extends Component {
 
       fetch(`https://fakestoreapi.com/products/${this.state.count}`)
         .then((res) => res.json())
-        .then((json) => {
-          console.log(json)
-          this.setState({ product: json });
-        });
+         .then((json) => {
+        console.log(json)
+        this.setState({ product: json });
+      });
     }
   }
 
   getSnapshotBeforeUpdate(prvsProps, prvsState) {
-    
+    console.log(prvsState,"snapshot")
     return null;
   }
 
@@ -49,7 +49,7 @@ return {color:props.color}
         <button onClick={this.decrement} disabled={this.state.count < 0}>
           decrement
         </button>
-        {console.log(this.state.product)}
+        {/* {console.log(this.state.product)} */}
         <div >
           {this.state.product?
         <Bootstrap

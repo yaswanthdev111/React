@@ -35,15 +35,15 @@ import Useeffect from './useeffect/useeffect.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <App />
-     {/* {<Hello />}
-    <Table/> 
-    <Home/>
-    <Practise/>
-    <Pract/>
-    <Resume/>
-    <Home1/>
-     <Pro/> */ }
+      {/* <App /> */}
+     {/* {<Hello />} */}
+    {/* {<Table/> } */}
+    {/* {<Home/>} */}
+    {/* {<Practise/>} */}
+    {/* {<Pract/>} */}
+   {/* { <Resume/>} */}
+    {/* {<Home1/>} */}
+     {/* {<Pro/>  } */}
     {/* <Boot/> */}
 
   {/* <Accord/>  */}
@@ -63,7 +63,7 @@ root.render(
 {/* <Forms/> */}
 {/* <Pure/> */}
 {/* <Formss/> */}
-{/* <Login/> */}
+<Login/>
 {/* <Useeffect/> */}
 
 
