@@ -29,13 +29,15 @@ import Pure from './purecomponent/pure.js'
 import Formss from './functionalforms/multipleforms.js'
 import Login from './login/login.jsx'
 import Useeffect from './useeffect/useeffect.js';
+import Whatsapp from './whatsappproject/index.jsx';
+import Context from './contextapi/parent.jsx';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      {/* <App /> */}
+      <App />
      {/* {<Hello />} */}
     {/* {<Table/> } */}
     {/* {<Home/>} */}
@@ -63,8 +65,10 @@ root.render(
 {/* <Forms/> */}
 {/* <Pure/> */}
 {/* <Formss/> */}
-<Login/>
+{/* <Login/> */}
 {/* <Useeffect/> */}
+{/* <Whatsapp/> */}
+{/* <Context/> */}
 
 
   </React.StrictMode>

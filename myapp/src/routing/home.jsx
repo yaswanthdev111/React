@@ -1,26 +1,42 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, Component, useState } from "react";
 
+function Home() {
 
+//  class component lo un mount
 
-useEffect=()=>{
+    useEffect(() => {
+        console.log("home mounted");
+      },[]);
 
+      useEffect(() => {
+        return () => {
+          console.log("HOME UNMOUNTED");
+        };
+      });
 
-    console.log("HOME MOUNTED")
-
-}
-useEffect=()=>{
-
-return ()=>{console.log("HOME UNMOUNTED")}
-}
-
-function Home(){
-
-
-
-    return(
-
-        <div>HOME</div>
-    )
+  return( <div>HOME</div>);
 }
 
-export default Home
+export default Home;
+
+
+// class component lo unmount State
+
+// class Home extends Component {
+//   componentDidMount() {
+//     console.log("home mounted");
+//   }
+
+//   componentWillUnmount() {
+//     console.log("home unmounted");
+//   }
+
+//   render() {
+//     return (
+//       <div>
+//         <h1>home</h1>
+//       </div>
+//     );
+//   }
+// }
+// export default Home;

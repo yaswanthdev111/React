@@ -12,7 +12,7 @@ function Useeffect() {
   useEffect(() => {
     // SetData(Data + 1);
     SetData(Data +1);
-  } ,[button]);
+  },[button]);
   return (
     <div>
       <h1>{Data}</h1>
