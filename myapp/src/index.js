@@ -31,13 +31,14 @@ import Login from './login/login.jsx'
 import Useeffect from './useeffect/useeffect.js';
 import Whatsapp from './whatsappproject/index.jsx';
 import Context from './contextapi/parent.jsx';
+import Dynamic from './dynamicrouting/movieslist.jsx'
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <App />
+      {/* <App /> */}
      {/* {<Hello />} */}
     {/* {<Table/> } */}
     {/* {<Home/>} */}
@@ -64,11 +65,12 @@ root.render(
 {/* <Props/> */}
 {/* <Forms/> */}
 {/* <Pure/> */}
-{/* <Formss/> */}
+<Formss/>
 {/* <Login/> */}
 {/* <Useeffect/> */}
 {/* <Whatsapp/> */}
 {/* <Context/> */}
+{/* <Dynamic/> */}
 
 
   </React.StrictMode>

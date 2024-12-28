@@ -7,11 +7,12 @@ import Login from "./routing/login";
 import Contact from "./routing/contact";
 import About from "./routing/about";
 import Page from "./routing/pagenotfound";
+import Dynamic from "./dynamicrouting/movieslist";
 
 function App() {
   return (
     <div>
-      <Router>
+      {/* <Router>
         <div
           style={{
             backgroundColor: "red",
@@ -39,7 +40,25 @@ function App() {
           <Route path="/Contact" element={<Contact />}></Route>
           <Route path="/About" element={<About />}></Route>
         </Routes>
-      </Router>
+      </Router> */}
+
+
+
+
+
+
+<Router>
+<Link to="/Home">Home</Link>
+<Link to="/movies">movies</Link>
+<Routes>
+<Route path="/Home" element={<Home/>}></Route>
+  <Route path="/movies" element={<Dynamic/>}></Route>
+</Routes>
+
+
+</Router>
+
+<Dynamic/>
     </div>
   );
 }
