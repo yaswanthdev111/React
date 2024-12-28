@@ -54,7 +54,7 @@ root.render(
     {/* <Cond/> */}
     {/* <Parent login="Admin" /> */}
     {/* <State/> */}
-    {/* <Button/> */}
+    <Button/>
     {/* <Form/> */}
     {/* <Todo/> */}
     {/* <Portfolio/> */}
@@ -65,7 +65,7 @@ root.render(
 {/* <Props/> */}
 {/* <Forms/> */}
 {/* <Pure/> */}
-<Formss/>
+{/* <Formss/> */}
 {/* <Login/> */}
 {/* <Useeffect/> */}
 {/* <Whatsapp/> */}
