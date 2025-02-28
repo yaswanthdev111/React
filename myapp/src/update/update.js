@@ -8,14 +8,14 @@ class Update extends Component {
   }
 
   increment = () => {
-    this.setState({ count: this.state.count + 1 });
+    this.setState({ count: this.state.count + 1 }); 
   };
   decrement = () => {
     this.setState({ count: this.state.count - 1 });
   };
   componentDidUpdate(prvsProps, prvsState) {
-    // console.log(prvsState.count, "prvsState");
-    // console.log(this.state.count, "currentstate");
+    //  console.log(prvsState.count, "prvsState");
+    //  console.log(this.state.count, "currentstate");
     if (prvsState.count !== this.state.count) {
       console.log(`count value updated by ${this.state.count}`);
 

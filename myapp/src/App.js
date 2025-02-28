@@ -12,7 +12,7 @@ import Dynamic from "./dynamicrouting/movieslist";
 function App() {
   return (
     <div>
-      {/* <Router>
+      <Router>
         <div
           style={{
             backgroundColor: "red",
@@ -40,14 +40,14 @@ function App() {
           <Route path="/Contact" element={<Contact />}></Route>
           <Route path="/About" element={<About />}></Route>
         </Routes>
-      </Router> */}
+      </Router>
 
 
 
 
 
 
-<Router>
+{/* <Router>
 <Link to="/Home">Home</Link>
 <Link to="/movies">movies</Link>
 <Routes>
@@ -58,7 +58,7 @@ function App() {
 
 </Router>
 
-<Dynamic/>
+<Dynamic/> */}
     </div>
   );
 }

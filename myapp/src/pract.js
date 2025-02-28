@@ -282,7 +282,7 @@ function Pract() {
     >
       {products.map((a, b) => {
         return (
-          <div
+           <div
             style={{
               flexDirection: "column",
               display:"flex",

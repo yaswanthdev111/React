@@ -9,4 +9,4 @@ function Props(Props){
         </div>)
 }
 
-export default(Props)
+export default Props

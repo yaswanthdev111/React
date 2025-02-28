@@ -11,6 +11,7 @@ class Todo extends Component {
   Submit = (event) => {
     event.preventDefault();
     this.setState({ output: this.state.name });
+    
   };
 
   render() {

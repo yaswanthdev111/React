@@ -3,8 +3,7 @@ import {useState} from "react"
 
 function Functional(){
 
-
-
+    
     const [text,setText]=useState("VENKATA")
 
 const change=()=>{

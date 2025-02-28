@@ -32,12 +32,18 @@ import Useeffect from './useeffect/useeffect.js';
 import Whatsapp from './whatsappproject/index.jsx';
 import Context from './contextapi/parent.jsx';
 import Dynamic from './dynamicrouting/movieslist.jsx'
-
+import UseReducer from './contextapi/usereducer/usereducer.jsx';
+import Circle from './company task/task.jsx'
+import Car from './mock.jsx'
+import Api from "./practise/apipractise.jsx"
+import Useeffectapi from './practise/useeffectapi.jsx';
+import Callback from './usecallback.jsx'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+ 
       {/* <App /> */}
      {/* {<Hello />} */}
     {/* {<Table/> } */}
@@ -52,14 +58,14 @@ root.render(
   {/* <Accord/>  */}
 
     {/* <Cond/> */}
-    {/* <Parent login="Admin" /> */}
+    {/* { <Parent login="user" />  } */}
     {/* <State/> */}
-    <Button/>
+    {/* <Button/> */}
     {/* <Form/> */}
     {/* <Todo/> */}
     {/* <Portfolio/> */}
     {/* <Life/> */}
-    {/* <Update color="red"/>   */}
+    {/* { <Update color="yellow"/>   } */}
     {/* update color red for getderviedstatefromprops once check in update.js file */}
 {/* <Functional/> */}
 {/* <Props/> */}
@@ -70,9 +76,13 @@ root.render(
 {/* <Useeffect/> */}
 {/* <Whatsapp/> */}
 {/* <Context/> */}
-{/* <Dynamic/> */}
-
-
+{/* <Dynamic/>    */}
+{/* <Circle/> */}
+{/* <UseReducer/> */}
+<Callback/>
+{/* <Car/> */}
+{/* <Api/> */}
+{/* <Useeffectapi/> */}
   </React.StrictMode>
 );
 

@@ -8,6 +8,7 @@ import { useState } from "react";
 function Forms() {
     const [text, setText] = useState("");
     const[result,setResult]=useState("")
+   
 
 
     const Forms = (e) => {

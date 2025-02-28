@@ -1,6 +1,4 @@
-import Accordian from "./bootaccordian";
-
-const data = [
+const Data = [
   {
     id: 1,
     title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -269,33 +267,21 @@ const data = [
   },
 ];
 
-
-
-
-
-function Accord() {
-  return (<div>
-
-  <Accordian title={data[0].title}
-img={data[0].image}/>
-
- </div>);
-
+function Api() {
+  return (
+    <div>
+      {Data.filter((item) => item.id % 2 !== 0).map((a, b) => {
+        return (
+          <div>
+            <img src={a.image} alt="" style={{ height: "120px" }} />
+            <h4>{a.title}</h4>
+            <h4>{a.category}</h4>
+            <h4>{a.rating.rate}</h4>
+          </div>
+        );
+      })}
+    </div>
+  );
 }
 
-export default Accord;
-
-
-
-//using map return in accordian
-// function Accord() {
-//   return (
-//     <div>
-//       {data.map((a, b) => {
-//         return <Accordian title={a.title} img={a.image} />;
-//       })}
-//     </div>
-//   );
-// }
-
-// export default Accord;
+export default Api;

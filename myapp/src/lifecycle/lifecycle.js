@@ -12,14 +12,19 @@ class Life extends Component {
       .then((json) => {
         this.setState({ products: json });
       });
+
   }
-  static getDerivedStateFromProps() {}
+
+
+static getDerivedStateFromProps() {}
   render() {
     return(
 
         <div>
 
-            <div style={{display:"flex",flexWrap:"wrap"}}>{this.state.products.map((a,b)=>{
+            <div style={{display:"flex",flexWrap:"wrap"}}>
+
+              {this.state.products.map((a,b)=>{
 
                 return(
                     <h1>{<Bootstrap img={a.image} title={a.title} desc={a.description}/>}</h1>

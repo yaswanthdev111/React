@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { data } from "react-router-dom";
 
 function Useeffect() {
   const [Data, SetData] = useState(0);
@@ -7,12 +8,16 @@ function Useeffect() {
 
   const HandleChange = () => {
     setButton(button + "YASWANTH");
+    
   };
 
   useEffect(() => {
     // SetData(Data + 1);
+    // console.log(Data)
     SetData(Data +1);
   },[button]);
+
+  
   return (
     <div>
       <h1>{Data}</h1>
